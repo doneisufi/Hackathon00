@@ -26,12 +26,12 @@ body {
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
 
-a:link, h1, h5, p{
+a:link, h1, h2, h3, h4, h5, h6, p{
     text-decoration: none;
-    color: #fff;
+    color: #fff!important;
 }
 a:hover {
-    color: orangered;
+    color: #0D6EFD;;
 }
 
 .text {
@@ -39,5 +39,19 @@ a:hover {
 }
 
 .container2 {
-    padding-top: 250px;
+    padding-top: 200px;
+}
+
+.container3, .container4 {
+    padding-top: 100px;
+}
+
+.btn-light:hover {
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    color: #fff;
+}
+
+.center {
+    justify-content: center;
 }
