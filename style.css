@@ -7,8 +7,8 @@ body {
 }
 
 .navigation-bar {
-    width: 100%;  /* i'm assuming full width */
-    height: 80px; /* change it to desired width */
+    width: 100%;
+    height: 80px;
 }
 .logo {
     display: inline-block;
@@ -16,22 +16,23 @@ body {
     width: 100px;
     height: 50px;
     margin-right: 620px;
-    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    margin-top: 15px;
 }
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
     margin-right: 20px;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    height: 80px;
+    line-height: 80px;
 }
 
-a:link, h1, h2, h3, h4, h5, h6, p{
+a:link, h1, h2, h3, h4, h5, h6, p, a{
     text-decoration: none;
-    color: #fff!important;
+    color: #fff;
 }
+
 a:hover {
-    color: #0D6EFD;;
+    color: #0D6EFD;
 }
 
 .text {
@@ -53,5 +54,23 @@ a:hover {
 }
 
 .center {
-    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    margin: 40px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
